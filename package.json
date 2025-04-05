@@ -1,0 +1,17 @@
+{
+  "name": "mcp-exp",
+  "version": "0.0.1",
+  "description": "",
+  "main": "build/index.mjs",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.mjs"
+  },
+  "author": "Yoichi Imai",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "@types/node": "^20.17.30",
+    "typescript": "^5.8.3"
+  }
+}
